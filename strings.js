@@ -3,5 +3,9 @@
 // repeatStr("hello",4) ==> 'hellohellohellohello'
 	
 	function repeatStr (n, s) {
-		//your code is here
+		var result = "";
+	for (var i = 0 ; i < s ; i++) {
+		result = result + n;
+	}
+	return result;
 	}
